@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- MyGridLayout -->
+  <declare-styleable name="MyGridLayout">
+    <attr name="numColumns" format="integer" />
+    <attr name="itemMargin" format="integer" />
+  </declare-styleable>
+
+  <!--自定义控件CommonSelectItem属性-->
+  <declare-styleable name="CommonSelectItem">
+    <!-- 定义item高度,负数则为自适应-->
+    <attr name="cs_item_height" format="dimension" />
+    <!-- 定义中间标题-->
+    <attr name="cs_main_title" format="reference" />
+    <!-- 定义中间标题文字颜色-->
+    <attr name="cs_main_title_color" format="color" />
+    <!-- 定义中间标题文字最大行数-->
+    <attr name="cs_main_title_maxline" format="integer" />
+    <!-- 定义item标题背景，可以定义点击特效-->
+    <attr name="cs_main_title_drawable" format="reference" />
+    <!-- 定义右边文字-->
+    <attr name="cs_right_text" format="reference" />
+    <!-- 定义左边图片-->
+    <attr name="cs_left_img_drawable" format="reference" />
+    <!-- 定义左边图片是否可见-->
+    <attr name="cs_left_img_visible" format="boolean" />
+    <!-- 定义右边边图片-->
+    <attr name="cs_right_img_drawable" format="reference" />
+    <!-- 定义右边图片是否可见-->
+    <attr name="cs_right_img_visible" format="boolean" />
+    <!-- 定义底部分隔条是否可见-->
+    <attr name="cs_bottom_divider_visible" format="boolean" />
+    <!-- 定义底部分隔条颜色-->
+    <attr name="cs_bottom_divider_color" format="color" />
+    <!-- 定义底部分隔条和文字间距-->
+    <attr name="cs_bottom_divider_top_margin" format="dimension" />
+    <!-- 定义底部左边间距-->
+    <attr name="cs_bottom_divider_left_margin" format="dimension" />
+    <!-- 定义底部右边间距-->
+    <attr name="cs_bottom_divider_right_margin" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="autoScrollText">
+    <attr name="textSize" format="dimension" />
+    <attr name="padding" format="dimension" />
+    <attr name="animteDuration" format="integer" />
+    <attr name="scrollDuration" format="integer" />
+    <attr name="textColor" format="color" />
+  </declare-styleable>
+
+  <declare-styleable name="RangeSeekBar">
+    <attr name="maxValue" format="float" />
+    <attr name="minValue" format="float" />
+    <attr name="minCanSelectValue" format="float" />
+    <attr name="reserve" format="float" />
+    <attr name="cells" format="integer" />
+    <attr name="lineColorCanNotSelected" format="color" />
+    <attr name="lineColorSelected" format="color" />
+    <attr name="lineColorEdge" format="color" />
+  </declare-styleable>
+
+  <declare-styleable name="DecimalPlaces">
+    <attr name="decimal_places" format="integer" />
+  </declare-styleable>
+
+  <declare-styleable name="timeline_style">
+    <attr name="marker" format="color|reference" />
+    <attr name="line" format="color|reference" />
+    <attr name="marker_size" format="dimension" />
+    <attr name="line_size" format="dimension" />
+    <attr name="line_orientation" format="enum">
+      <enum name="horizontal" value="0" />
+      <enum name="vertical" value="1" />
+    </attr>
+    <attr name="markerInCenter" format="boolean" />
+  </declare-styleable>
+
+  <!-- flowlayout布局style -->
+  <declare-styleable name="TagFlowLayout">
+    <attr name="auto_select_effect" format="boolean"/>
+    <attr name="max_select" format="integer"/>
+    <attr name="gravity" format="string"/>
+  </declare-styleable>
+
+  <!-- 圆角ImageView -->
+  <declare-styleable name="RoundedImageView">
+    <attr name="riv_corner_radius" format="dimension" />
+    <attr name="riv_corner_radius_top_left" format="dimension" />
+    <attr name="riv_corner_radius_top_right" format="dimension" />
+    <attr name="riv_corner_radius_bottom_left" format="dimension" />
+    <attr name="riv_corner_radius_bottom_right" format="dimension" />
+    <attr name="riv_border_width" format="dimension" />
+    <attr name="riv_border_color" format="color" />
+    <attr name="riv_mutate_background" format="boolean" />
+    <attr name="riv_oval" format="boolean" />
+    <attr name="android:scaleType" />
+    <attr name="riv_tile_mode">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="FlowLayout">
+    <attr name="horizontal_spacing" format="dimension" />
+    <attr name="vertical_spacing" format="dimension" />
+    <attr name="max_line_count" format="integer" />
+  </declare-styleable>
+
+  <!-- 可展开、收缩的TextView -->
+  <declare-styleable name="ExpandableTextView">
+    <attr name="maxCollapsedLines" format="integer" />
+    <attr name="animDuration" format="integer" />
+    <attr name="animAlphaStart" format="float" />
+    <attr name="expandDrawable" format="reference" />
+    <attr name="collapseDrawable" format="reference" />
+    <attr name="expandText" format="string" />
+    <attr name="collapseText" format="string" />
+    <attr name="isTextHint" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="BubbleImageView">
+    <attr name="bubble_arrowTop" format="dimension|reference" />
+    <attr name="bubble_arrowWidth" format="dimension|reference" />
+    <attr name="bubble_arrowHeight" format="dimension|reference" />
+    <attr name="bubble_arrowOffset" format="dimension|reference" />
+    <attr name="bubble_angle" format="dimension|reference" />
+    <attr name="bubble_arrowLocation" format="enum">
+      <enum name="left" value="0" />
+      <enum name="right" value="1" />
+    </attr>
+  </declare-styleable>
+  <declare-styleable name="CircleImageView">
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="border_overlay" format="boolean" />
+  </declare-styleable>
+
+  <!-- 顶部Tab -->
+  <declare-styleable name="HouseSegment">
+    <attr name="cornerRadius" format="dimension|reference" />
+    <attr name="colors" format="color|reference" />
+    <attr name="unPressText" format="color|reference" />
+    <attr name="pressText" format="color|reference" />
+    <attr name="canvasColor" format="color|reference" />
+    <attr name="texts" format="string|reference" />
+    <attr name="android:textSize" />
+    <attr name="direction" format="enum">
+      <enum name="horizon" value="0" />
+      <enum name="vertical" value="1" />
+    </attr>
+    <attr name="gaps" format="dimension|reference" />
+    <attr name="horizonGap" format="dimension|reference" />
+    <attr name="verticalGap" format="dimension|reference" />
+  </declare-styleable>
+
+  <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+  <declare-styleable name="HorizontalListView">
+    <attr name="dividerWidth" format="dimension" />
+    <attr name="android:divider" />
+    <attr name="android:requiresFadingEdge" />
+    <attr name="android:fadingEdgeLength" />
+  </declare-styleable>
+  <declare-styleable name="MyScrollPageView">
+    <attr name="indicator_gravity" format="enum">
+      <enum name="Center_Bottom" value="0" />
+      <enum name="Center" value="1" />
+      <enum name="Center_Top" value="2" />
+      <enum name="Right_Bottom" value="3" />
+      <enum name="Right_Top" value="4" />
+      <enum name="Left_Bottom" value="5" />
+      <enum name="Left_Top" value="6" />
+    </attr>
+    <attr name="isauto_scroll" format="boolean" />
+    <attr name="isInfinite" format="boolean" />
+    <attr name="scroll_interval" format="integer" />
+    <attr name="indicator_visibility" format="enum">
+      <enum name="Gone" value="0" />
+      <enum name="Visible" value="1" />
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="title_bar_chat_icon">
+    <attr name="chat_icon_drawable" format="integer" />
+  </declare-styleable>
+
+  <declare-styleable name="PowerImageView">
+    <attr name="auto_play" format="boolean"></attr>
+    <attr name="end_img" format="reference|color"></attr>
+
+  </declare-styleable>
+
+  <declare-styleable name="HouseListFilterView">
+    <attr name="underLineColor" format="color" />
+    <attr name="dividerLineColor" format="color" />
+    <attr name="textSelectedColor" format="color" />
+    <attr name="textUnSelectedColor" format="color" />
+    <attr name="menuBackground" format="color" />
+    <attr name="maskColor" format="color" />
+    <attr name="menuTextSize" format="dimension" />
+    <attr name="menuSelectedIcon" format="reference" />
+    <attr name="menuUnselectedIcon" format="reference" />
+
+  </declare-styleable>
+
+  <declare-styleable name="CircleProgressBar">
+    <!-- 设置圆环进度条的圆环背景属性，包括颜色与宽度 -->
+    <attr name="circle_color" format="color" />
+    <attr name="circle_width" format="dimension" />
+
+    <!-- 设置圆环进度条的进度条属性，包括颜色与宽度，颜色可以设置3种从而实现一个渐变的效果 -->
+    <attr name="progress_color1" format="color" />
+    <attr name="progress_color2" format="color" />
+    <attr name="progress_color3" format="color" />
+    <attr name="progress_width" format="dimension" />
+
+
+    <!-- 设置圆环进度条百分比是从低到高显示还是从高到低显示 ，默认从低到高，即从0到100 -->
+    <attr name="set_high_to_low" format="boolean" />
+
+    <!-- 是否设置圆环进度条中间的内容属性，需要与下面的一组属性配合使用-->
+    <attr name="is_set_top_title" format="boolean" />
+    <attr name="is_set_mid_content" format="boolean" />
+    <attr name="is_set_bottom_content" format="boolean" />
+
+    <!-- 设置圆环进度条中间的内容属性-->
+    <attr name="top_title" format="string" />
+    <attr name="bottom_content" format="string" />
+    <attr name="current_progress" format="float" />
+    <attr name="max_progress" format="float" />
+
+    <attr name="top_title_color" format="color" />
+    <attr name="mid_progress_color" format="color" />
+    <attr name="bottom_content_color" format="color" />
+    <attr name="top_title_text_size" format="dimension" />
+    <attr name="bottom_content_text_size" format="dimension" />
+    <attr name="current_progress_text_size" format="dimension" />
+
+
+    <!-- 设置显示圆环的弧度，360度则显示整个圆环-->
+    <attr name="sweep_angle" format="integer" />
+    <attr name="start_arc" format="float" />
+    <attr name="end_arc" format="float" />
+
+
+  </declare-styleable>
+
+  <declare-styleable name="SlidingUpPanelLayout">
+    <attr name="umanoPanelHeight" format="dimension" />
+    <attr name="umanoShadowHeight" format="dimension" />
+    <attr name="umanoParallaxOffset" format="dimension" />
+    <attr name="umanoFadeColor" format="color" />
+    <attr name="umanoFlingVelocity" format="integer" />
+    <attr name="umanoDragView" format="reference" />
+    <attr name="umanoScrollableView" format="reference" />
+    <attr name="umanoOverlay" format="boolean" />
+    <attr name="umanoClipPanel" format="boolean" />
+    <attr name="umanoAnchorPoint" format="float" />
+    <attr name="umanoInitialState" format="enum">
+      <enum name="expanded" value="0" />
+      <enum name="collapsed" value="1" />
+      <enum name="anchored" value="2" />
+      <enum name="hidden" value="3" />
+    </attr>
+    <attr name="umanoScrollInterpolator" format="reference" />
+  </declare-styleable>
+  <declare-styleable name="CustomSeekBar">
+    <attr name="progress" format="integer" />
+    <attr name="max" format="integer" />
+    <attr name="progress_unreached_color" format="color" />
+    <attr name="progress_reached_color" format="color" />
+    <attr name="progress_reached_bar_height" format="dimension" />
+    <attr name="progress_unreached_bar_height" format="dimension" />
+    <attr name="progress_text_size" format="dimension" />
+    <attr name="progress_text_color" format="color" />
+    <attr name="progress_text_offset" format="dimension" />
+    <attr name="progress_text_visibility" format="enum">
+      <enum name="visible" value="0" />
+      <enum name="invisible" value="1" />
+    </attr>
+  </declare-styleable>
+
+  <!--tab layout style-->
+  <declare-styleable name="TabItem">
+    <attr name="android:text" />
+    <attr name="android:icon" />
+    <attr name="android:layout" />
+  </declare-styleable>
+  <declare-styleable name="TabLayout">
+    <attr name="tabIndicatorColor" format="color" />
+    <attr name="tabIndicatorHeight" format="dimension" />
+    <attr name="tabContentStart" format="dimension" />
+    <attr name="tabBackground" format="reference" />
+    <attr name="tabMode">
+      <enum name="scrollable" value="0" />
+      <enum name="fixed" value="1" />
+    </attr>
+    <attr name="tabGravity">
+      <enum name="fill" value="0" />
+      <enum name="center" value="1" />
+    </attr>
+    <attr name="tabMinWidth" format="dimension" />
+    <attr name="tabMaxWidth" format="dimension" />
+    <attr name="tabTextAppearance" format="reference" />
+    <attr name="tabTextColor" format="color" />
+    <attr name="tabSelectedTextColor" format="color" />
+    <attr name="tabPaddingStart" format="dimension" />
+    <attr name="tabPaddingTop" format="dimension" />
+    <attr name="tabPaddingEnd" format="dimension" />
+    <attr name="tabPaddingBottom" format="dimension" />
+    <attr name="tabPadding" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="TextAppearance">
+    <attr name="android:textSize" />
+    <attr name="android:textColor" />
+    <attr name="android:textColorHint" />
+    <attr name="android:textStyle" />
+    <attr name="android:typeface" />
+    <attr name="android:shadowColor" />
+    <attr name="android:shadowDy" />
+    <attr name="android:shadowDx" />
+    <attr name="android:shadowRadius" />
+  </declare-styleable>
+
+  <declare-styleable name="VrLoadingView">
+    <attr name="repeat" format="boolean" />
+    <attr name="autoplay" format="boolean" />
+    <attr name="showcircle" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="RoundImageView">
+    <attr name="borderRadius" format="dimension" />
+    <attr name="top_left" format="boolean" />
+    <attr name="top_right" format="boolean" />
+    <attr name="bottom_left" format="boolean" />
+    <attr name="bottom_right" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="ShadowLayout">
+    <attr name="sl_cornerRadius" format="dimension" />
+    <attr name="sl_shadowRadius" format="dimension" />
+    <attr name="sl_shadowColor" format="color" />
+    <attr name="sl_dx" format="dimension" />
+    <attr name="sl_dy" format="dimension" />
+  </declare-styleable>
+</resources>

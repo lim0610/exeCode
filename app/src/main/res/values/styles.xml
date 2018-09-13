@@ -1,0 +1,53 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="toast_anim">
+    <item name="android:windowExitAnimation">@anim/toast_anim_out</item>
+    <item name="android:windowEnterAnimation">@anim/toast_anim_in</item>
+  </style>
+
+  <style name="feed_item_title_style">
+    <item name="android:layout_marginTop">-2dp</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:maxLines">2</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:textSize">18dp</item>
+    <item name="android:textColor">@color/main_text</item>
+    <item name="android:lineSpacingExtra">1dp</item>
+  </style>
+
+  <style name="feed_item_name_style">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">14dp</item>
+    <item name="android:lines">1</item>
+    <item name="android:textSize">12dp</item>
+    <item name="android:textColor">@color/color_9399A5</item>
+  </style>
+
+  <style name="feed_item_single_picture_style">
+    <item name="android:layout_width">120dp</item>
+    <item name="android:layout_height">90dp</item>
+    <item name="android:scaleType">center</item>
+    <item name="android:layout_marginLeft">17dp</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:src">@drawable/default_img</item>
+  </style>
+
+  <style name="feed_item_triple_picture_style">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:scaleType">center</item>
+    <item name="android:src">@drawable/default_img</item>
+  </style>
+
+</resources>

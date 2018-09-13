@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="colorFriendName">#333333</color>
+  <color name="colorBgGray">#eeeeee</color>
+  <color name="colorDivider">#dddddd</color>
+  <color name="color_anim_toast_bg">#f23072f6</color>
+  <color name="white">#ffffff</color>
+
+  <!-- 背景色 -->
+  <color name="main_background">#F8F8F9</color>
+  <!-- 分割线 -->
+  <color name="main_divider">#E4E6F0</color>
+  <!-- 品牌色 -->
+  <color name="main_blue">@color/color_3072F6</color>
+  <!-- 辅助色 -->
+  <color name="main_red">#FA5741</color>
+  <!-- 文字主色 -->
+  <color name="main_text">#101D37</color>
+  <!-- 文字辅色 -->
+  <color name="main_text_sub">#9399A5</color>
+  <!-- 文字提示色 -->
+  <color name="main_text_hint">#CED2D6</color>
+  <!--按钮未激活-->
+  <color name="main_blue_unselected">#ADD6FA</color>
+  <!-- 标题栏背景色 -->
+  <color name="main_title_background">#FFFFFF</color>
+  <!--不同透明度的品牌色-->
+  <color name="main_blue_10">#19DFEEFD</color>
+  <color name="main_blue_20">#C1DFFC</color>
+  <color name="main_blue_30">#A1CEFA</color>
+  <color name="main_blue_60">#56ACFA</color>
+  <color name="main_blue_90">#1390FD</color>
+  <color name="main_blue_search_bg">#007BE5</color>
+  <color name="empty_title_color">#a1a1a1</color>
+
+  <color name="gray_394043">#394043</color>
+  <color name="color_4D4D4D">#4D4D4D</color>
+  <color name="gray_6B7072">#6B7072</color>
+  <color name="gray_9c9fa1">#9c9fa1</color>
+  <color name="gray_aaaaaa">#aaaaaa</color>
+  <color name="gray_CCCCCC">#CCCCCC</color>
+  <color name="gray_E5E5E5">#E5E5E5</color>
+  <color name="gray_F5F5F5">#F5F5F5</color>
+  <color name="gray_F9F9F9">#F9F9F9</color>
+
+  <color name="white_40">#66FFFFFF</color>
+  <color name="gray_d3d9d9">#d3d9d9</color>
+  <color name="color_cdcfd0">#cdcfd0</color>
+  <color name="black">#FF000000</color>
+  <color name="color_000000">#000000</color>
+  <color name="text_new_black">#222222</color>
+  <color name="color_20percent_black">#33000000</color>
+  <color name="color_60percent_black">#9a000000</color>
+  <color name="color_pressed">#9c000000</color>
+
+  <color name="transparent">#00FFFFFF</color>
+  <color name="newhouse_transparent">#00000000</color>
+  <color name="background">#F5F5F5</color>
+  <color name="color_calc_unchecked_white">#b2ffffff</color>
+  <color name="light_black">#333333</color>
+  <color name="new_title_bar_bg">#f9f9f9</color>
+
+  <!-- 透明度为50% 黑色 -->
+  <color name="color_scan_mask">#7f000000</color>
+  <color name="color_20percent_white">#33ffffff</color>
+
+  <color name="two_tab_sel_view_text_unselected">#666666</color>
+  <color name="list_divider">#e5e5e5</color>
+  <color name="gray_lv6">#333333</color>
+  <color name="color_6898F8">#6898F8</color>
+  <color name="color_2C68E0">#2C68E0</color>
+  <color name="color_5D88DE">#5D88DE</color>
+  <color name="color_275DC9">#275DC9</color>
+  <color name="color_3072F6">#3072F6</color>
+  <color name="color_B7CEFC">#B7CEFC</color>
+  <color name="color_96B4F0">#96B4F0</color>
+
+  <color name="color_f3f4f5">#F3F4F5</color>
+  <color name="color_7BC0F6">#7BC0F6</color>
+  <color name="color_558BF7">#558BF7</color>
+  <color name="color_6EACDC">#6EACDC</color>
+  <color name="color_4D7EDD">#4D7EDD</color>
+  <color name="color_285ECA">#285ECA</color>
+  <color name="color_2A65DA">#2A65DA</color>
+  <color name="color_2455B7">#2455B7</color>
+  <color name="color_1a1a1a">#1A1A1A</color>
+  <color name="bg_icon">#F4F8FE</color>
+  <color name="color_94BBFF">#94BBFF</color>
+  <color name="color_9399A5">#9399A5</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout-->
+  <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+  <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+  <!--xmlns:tools="http://schemas.android.com/tools"-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="match_parent"-->
+  <!--tools:context=".TestListActivity"-->
+  <!--&gt;-->
+
+  <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;&ndash;&gt;-->
+  <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+  <!---->
+
+<!--</LinearLayout>-->
+
+<com.beike.sample.limengsample.view.MyListView
+  android:id="@+id/lv_test"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:divider="@color/colorDivider"
+  android:dividerHeight="1dp"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  />

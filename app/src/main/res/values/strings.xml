@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">limengSample</string>
+  <string name="tip_api">这是一条测试tip</string>
+</resources>

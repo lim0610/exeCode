@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:background="@color/white"
+  android:orientation="vertical"
+  android:paddingBottom="18dp"
+  android:paddingLeft="24dp"
+  android:paddingRight="24dp"
+  android:paddingTop="18dp">
+
+  <TextView
+    android:id="@+id/tv_feed_title"
+    tools:text="拥有两百年历史的高尔夫要简化规则，这能吸引更多人么？"
+    style="@style/feed_item_title_style" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+    <com.beike.sample.limengsample.view.RoundImageView
+      android:id="@+id/iv_feed_pic_1"
+      app:borderRadius="2dp"
+      app:top_left="true"
+      app:top_right="true"
+      app:bottom_left="true"
+      app:bottom_right="true"
+      style="@style/feed_item_triple_picture_style" />
+    <View
+      android:layout_width="6dp"
+      android:layout_height="0dp" />
+    <com.beike.sample.limengsample.view.RoundImageView
+      android:id="@+id/iv_feed_pic_2"
+      app:borderRadius="2dp"
+      app:top_left="true"
+      app:top_right="true"
+      app:bottom_left="true"
+      app:bottom_right="true"
+      style="@style/feed_item_triple_picture_style" />
+    <View
+      android:layout_width="6dp"
+      android:layout_height="0dp" />
+    <com.beike.sample.limengsample.view.RoundImageView
+      android:id="@+id/iv_feed_pic_3"
+      app:borderRadius="2dp"
+      app:top_left="true"
+      app:top_right="true"
+      app:bottom_left="true"
+      app:bottom_right="true"
+      style="@style/feed_item_triple_picture_style" />
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/tv_feed_name"
+    tools:text="贝壳研究院"
+    style="@style/feed_item_name_style"
+    android:layout_marginTop="8dp" />
+
+</LinearLayout>

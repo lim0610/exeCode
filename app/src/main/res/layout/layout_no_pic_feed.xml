@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/white"
+  android:orientation="vertical"
+  android:paddingBottom="18dp"
+  android:paddingLeft="24dp"
+  android:paddingRight="24dp"
+  android:paddingTop="18dp">
+
+  <TextView
+    android:id="@+id/tv_feed_title"
+    tools:text="拥有两百年历史的高尔夫要简化规则，这能吸引更多人么？"
+    style="@style/feed_item_title_style" />
+
+  <TextView
+    android:id="@+id/tv_feed_name"
+    tools:text="贝壳研究院"
+    style="@style/feed_item_name_style" />
+
+</LinearLayout>
