@@ -1,4 +1,4 @@
-package com.ubankfx.forex.view;
+package com.beike.sample.limengsample.view;
 
 import android.content.Context;
 import android.support.annotation.AttrRes;
@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
